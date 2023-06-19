@@ -1,0 +1,12 @@
+body  {
+  background-image: url("../img/cosmos.avif");
+}
+.p1 {
+  position:relative;
+  top: 300px;
+  animation: mymove 10s infinite;
+}
+@keyframes mymove {
+  from {left: -250px;}
+  to {left: 1700px;}
+}
